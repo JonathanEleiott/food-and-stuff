@@ -1,8 +1,12 @@
+import { Routes, Route } from 'react-router-dom';
+
 const App = () => {
 
   return (
     <>
-      <h1>Food and Stuff</h1>
+      <Routes>
+        <Route path='/' element={<h1>Welcome to Food and Stuff</h1>} />
+      </Routes>
     </>
   )
 }
